@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+body{
+  font-family: 'Baloo Chettan 2', cursive !important;
+}
+
+@keyframes fadeIn {
+  0%{ opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@keyframes fadeout{
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@keyframes fade {
+  0%{ opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.fadeIn{
+  animation:fadeIn 0.5s ;
+}
+.fadeout{
+  opacity:0;
+  animation:fadeout 0.5s ;
+}
+.slider-wrapper-active{
+  animation: fade 1s infinite;
+}
+
+.updateNavLink{
+  color: white !important;
+}
+.updateNavLink:hover{
+  color: #2193b0 !important;  
+  color: -webkit-linear-gradient(to right, #6dd5ed, #2193b0) !important;  
+  color: linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+}
+
+
+
+.regularNavLink{
+  color: #2193b0 !important;  
+  color: -webkit-linear-gradient(to right, #6dd5ed, #2193b0) !important;  
+  color: linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+  
+}
+
+.contact-button{
+  background: #2193b0 !important;  
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0) !important;  
+  background: linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+}
+
+.nav-call{
+  color: white !important;
+}
+.nav-call:hover{
+  color: #2193b0 !important;  
+  color: -webkit-linear-gradient(to right, #6dd5ed, #2193b0) !important;  
+  color: linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+  background: white;
+  border-color: white !important;
+   transform: scale(1.2);
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transition: .3s ease-in-out;
+  border-radius: 99px;
+}
+
+.regular-nav-call{
+  color: #2193b0 !important; 
+  color: -webkit-linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+  color: linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+}
+.regular-nav-call:hover{
+  color: white !important;  
+  background: #2193b0 !important;  
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0) !important;  
+  background: linear-gradient(to right, #6dd5ed, #2193b0) !important; 
+   transform: scale(1.2);
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transition: .3s ease-in-out;
+  border-radius: 99px;
+}
+
+
+/* @media (max-width: 600px) {
+  .services-image{
+    height:300px
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-image{
+    height:300px
+  }
+} */
+@media (max-width: 840px) {
+  .services-image{
+    height:200px
+  }
+  .services-link{
+    height: 250px;
+  }
+}
+
+@media (min-width: 840px) {
+  .services-image{
+    height:250px
+  }
+  .services-link{
+    height: 250px;
+  }
+}
+
+@media  (min-width: 992px) {
+  .services-image{
+    height:300px
+  }
+  .services-link{
+    height: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .services-image{
+    height:350px
+  }
+  .services-link{
+    height: 250px;
+  }
+}
+.services{
+  background-image: url(./images/services.jpg);
+}
+.about{
+  background-image: url(./images/waterproof.jpg);
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}

@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To Start This Boilerplate
+
+Clone the repo.
+
+Navigate into the client folder using the following command.
+
+### `cd client`
+
+Once in client folder, run `npm install` to install the packages.
+
+Once finished, navigate back to the root directory by using the following command `cd ..`
+
+Run `npm install` to install the packages for the backend.
+
+To start the application, run
+
+### `npm run dev`
+
 ## Available Scripts
 
 In the project directory, you can run:
